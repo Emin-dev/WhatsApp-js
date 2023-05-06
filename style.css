@@ -1,0 +1,181 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+body h2 {
+  font-weight: 500;
+  font-size: 30px;
+}
+body input, body .btn {
+  border: 2px solid #3a5543;
+}
+
+#menu {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  color: white;
+}
+#menu h1 {
+  font-size: 44px;
+}
+#menu h4 {
+  font-size: 26px;
+  margin-right: 14px;
+}
+
+#header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#header h1 {
+  font-size: 44px;
+  color: white;
+  text-align: center;
+}
+
+#whyUs {
+  margin-top: 50px;
+  color: #965A32;
+}
+#whyUs .box {
+  text-align: center;
+  border-radius: 20px;
+  background-color: #E6DAD3;
+  padding: 15px;
+  margin: 20px 0;
+}
+#whyUs .box img {
+  border-radius: 100%;
+}
+#whyUs .box h1, #whyUs .box h4, #whyUs .box .infobox {
+  margin-top: 25px;
+}
+#whyUs .box h4 {
+  line-height: 25px;
+  overflow: auto;
+  max-height: 126px;
+}
+#whyUs .box h4::-webkit-scrollbar {
+  display: none;
+}
+#whyUs .box .infobox {
+  display: flex;
+  justify-content: center;
+}
+#whyUs .box .infobox .lbtn, #whyUs .box .infobox .dbtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #d1b8aa;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#jsDom {
+  margin: 100px 0;
+}
+#jsDom .chat {
+  border-radius: 20px;
+  background-color: #e8edff;
+  width: 100%;
+  padding: 25px;
+  margin: 20px 0;
+}
+#jsDom .message {
+  height: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #f4f6ff;
+  overflow: auto;
+  height: 40vh;
+}
+#jsDom .message::-webkit-scrollbar {
+  display: none;
+}
+#jsDom .message .end {
+  text-align: end;
+}
+#jsDom .message .line {
+  display: inline-block;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: #7991e7;
+  padding: 10px;
+  color: white;
+  text-align: start;
+  max-width: 50%;
+}
+#jsDom .text {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+#jsDom .text input {
+  margin-right: 10PX;
+}
+#jsDom .text .sent {
+  border-radius: 20px;
+  background-color: #94a6e6;
+  padding: 10px 25px;
+  color: white;
+  cursor: pointer;
+}
+#jsDom .text .sent h3 {
+  cursor: pointer;
+}
+
+#weather .box {
+  border-radius: 20px;
+  background-color: #a1c7ff;
+  width: 100%;
+  padding: 25px;
+  margin: 20px 0;
+  text-align: center;
+}
+#weather .box .data h1, #weather .box .data h2 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+#weather .box #btn {
+  border-radius: 20px;
+  background-color: #75acfc;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  max-width: 200px;
+  margin: 10px auto 0;
+}
+
+#shop {
+  margin: 50px 0;
+}
+#shop .box {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #d6e7ff;
+  padding: 20px;
+}
+#shop .box #big {
+  border-radius: 20px;
+  background-color: #a8ccff;
+  padding: 5px 20px;
+  color: white;
+  margin-left: 10px;
+}
+
+#ipad {
+  margin: 50px 0 100px;
+}
+#ipad h1 {
+  font-size: 33px;
+  color: #75acfc;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
