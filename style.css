@@ -29,7 +29,7 @@ body input, body .btn {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("bg.jpeg");
+  background-image: url("./bg.jpeg");
   background-size: cover;
   background-position: center;
 }
