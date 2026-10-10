@@ -84,6 +84,7 @@ test('weather is visibly unconfigured and both controls are disabled', () => {
         assert.equal(/\sdisabled(?:\s|>)/.test(attributes), true);
         assert.equal(attributes.includes('aria-describedby="weather-status"'), true);
     }
+    assert.equal(nodes.get('#myWeather').attributes.includes('aria-label="City"'), true);
     assert.equal(nodes.get('#btn').attributes.startsWith('<button type="button"'), true);
 });
 
