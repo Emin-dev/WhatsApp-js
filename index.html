@@ -186,8 +186,9 @@
                                 ?
                             </h2>
                         </div>
-                        <input type="text" id="myWeather">
-                        <div id="btn">Search</div>
+                        <p id="weather-status" role="status">Weather is not configured. Search is unavailable.</p>
+                        <input type="text" id="myWeather" disabled aria-describedby="weather-status">
+                        <button type="button" id="btn" disabled aria-describedby="weather-status">Search</button>
                     </div>
                 </div>
             </div>
@@ -261,4 +262,5 @@
 
     </footer>
 </body> -->
+
 
